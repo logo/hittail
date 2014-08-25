@@ -1,18 +1,2 @@
-
-/**
- * HitTail
- */
-
-.logo[data-logo="HitTail"] {
-  width: 3.382301294em;
-  /* (669.84/173.12) * (1+.1-.2) - .1 */
-}
-
-.logo[data-logo="HitTail"] > * {
-  background-image: url(images/logo.svg);
-  margin: -.1em 0 .2em -.1em;
-}
-
-.logo[data-logo="HitTail"].monochromatic > * {
-  background-image: url(images/logo-monochromatic.svg);
-}
+@import 'logo/logo';
+@import './style';
